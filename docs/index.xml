@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Making a Pandas DataFrame with two-dimensional list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/</guid>
+      <description>import pandas as pdlst = [[&amp;#39;Nicole&amp;#39;, &amp;#39;Williamson&amp;#39;, 23], [&amp;#39;William&amp;#39;, &amp;#39;Smith&amp;#39;, 29], [&amp;#39;Nick&amp;#39;, &amp;#39;Fury&amp;#39;, 30], [&amp;#39;Vin&amp;#39;, &amp;#39;williams&amp;#39;, 22]] print(lst) [[&#39;Nicole&#39;, &#39;Williamson&#39;, 23], [&#39;William&#39;, &#39;Smith&#39;, 29], [&#39;Nick&#39;, &#39;Fury&#39;, 30], [&#39;Vin&#39;, &#39;williams&#39;, 22]]  df = pd.DataFrame(lst, columns =[&amp;#39;FirstName&amp;#39;, &amp;#39;LastName&amp;#39;, &amp;#39;Age&amp;#39;]) print(df)  FirstName LastName Age 0 Nicole Williamson 23 1 William Smith 29 2 Nick Fury 30 3 Vin williams 22  </description>
+    </item>
+    
+    <item>
       <title>Python Addition</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/basics/python-addition/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
