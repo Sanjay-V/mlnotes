@@ -16,14 +16,14 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Creating Pandas Dataframe using list of lists" />
+<meta property="og:title" content="Creating a Numpy Array" />
 <meta property="og:description" content="-" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/pandas/creating-pandas-dataframe-using-list-of-lists/" /><meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/numpy/creating-a-numpy-array/" /><meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2020-09-04T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating Pandas Dataframe using list of lists"/>
+<meta name="twitter:title" content="Creating a Numpy Array"/>
 <meta name="twitter:description" content="-"/>
 <meta name="generator" content="Hugo 0.50" /> 
     
@@ -32,9 +32,9 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Creating Pandas Dataframe using list of lists",
-  "url": "https://Sanjay-V.github.io/mlnotes/python/pandas/creating-pandas-dataframe-using-list-of-lists/",
-  "wordCount": "59",
+  "headline": "Creating a Numpy Array",
+  "url": "https://Sanjay-V.github.io/mlnotes/python/numpy/creating-a-numpy-array/",
+  "wordCount": "98",
   "datePublished": "2020-09-04T00:00:00&#43;00:00",
   "dateModified": "2020-09-04T00:00:00&#43;00:00",
   "author": {
@@ -45,7 +45,7 @@
 }
 </script> 
 
-    <title>Creating Pandas Dataframe using list of lists</title>
+    <title>Creating a Numpy Array</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -117,25 +117,33 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       
-    <h1 class="technical_note_title">Creating Pandas Dataframe using list of lists</h1>
+    <h1 class="technical_note_title">Creating a Numpy Array</h1>
     <div class="technical_note_date">
       <time datetime=" 2020-09-04T00:00:00Z "> 04 Sep 2020</time>
     </div>
   </header>
   <div class="content">
-  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Import pandas library  </span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize list of lists </span>
-<span class="n">lst</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;Numpy&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;Pandas&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;Matplotlib&#39;</span><span class="p">,</span> <span class="mi">20</span><span class="p">]]</span>  </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print list of lists </span>
-<span class="k">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span></code></pre></div>
-<pre><code>[['Numpy', 10], ['Pandas', 15], ['Matplotlib', 20]]
+  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Importing numpy library</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Creating a rank 1 Array and printing it out</span>
+<span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">99</span><span class="p">,</span> <span class="mi">47</span><span class="p">,</span> <span class="mi">38</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Array with Rank 1: </span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span><span class="n">arr</span><span class="p">)</span></code></pre></div>
+<pre><code>Array with Rank 1: 
+ [99 47 38]
 </code></pre>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Create the pandas DataFrame </span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Tech&#39;</span><span class="p">,</span> <span class="s1">&#39;Points&#39;</span><span class="p">])</span> </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print dataframe  </span>
-<span class="k">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> </code></pre></div>
-<pre><code>         Tech  Points
-0       Numpy      10
-1      Pandas      15
-2  Matplotlib      20
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Creating a rank 2 Array and printing it out</span>
+<span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">11</span><span class="p">,</span> <span class="mi">27</span><span class="p">,</span> <span class="mi">35</span><span class="p">],</span>
+                <span class="p">[</span><span class="mi">46</span><span class="p">,</span> <span class="mi">52</span><span class="p">,</span> <span class="mi">64</span><span class="p">]])</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Array with Rank 2: </span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">arr</span><span class="p">)</span></code></pre></div>
+<pre><code>Array with Rank 2: 
+ [[11 27 35]
+ [46 52 64]]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Creating an array from tuple and printing it out</span>
+<span class="n">arr</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">((</span><span class="mi">16</span><span class="p">,</span> <span class="mi">34</span><span class="p">,</span> <span class="mi">27</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;</span><span class="se">\n</span><span class="s2">Array created using &#34;</span>
+      <span class="s2">&#34;passed tuple:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">arr</span><span class="p">)</span></code></pre></div>
+<pre><code>Array created using passed tuple:
+ [16 34 27]
 </code></pre>
 
 </div>

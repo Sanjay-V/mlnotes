@@ -39,6 +39,15 @@
     </item>
     
     <item>
+      <title>Creating a Numpy Array</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/creating-a-numpy-array/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/creating-a-numpy-array/</guid>
+      <description># Importing numpy library import numpy as np# Creating a rank 1 Array and printing it out arr = np.array([99, 47, 38]) print(&amp;#34;Array with Rank 1: \n&amp;#34;,arr) Array with Rank 1: [99 47 38]  # Creating a rank 2 Array and printing it out arr = np.array([[11, 27, 35], [46, 52, 64]]) print(&amp;#34;Array with Rank 2: \n&amp;#34;, arr) Array with Rank 2: [[11 27 35] [46 52 64]]  # Creating an array from tuple and printing it out arr = np.</description>
+    </item>
+    
+    <item>
       <title>Creating a Pandas Dataframe using list of dicts</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-dicts/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
