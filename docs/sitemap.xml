@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/accuracy-score/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/array-characteristics/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
@@ -19,6 +24,11 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/confusion-matrix/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -64,6 +74,21 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-unique-values-from-a-column-in-pandas-dataframe/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/label-encoding/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/loading-dataset-from-sklearn/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/one-hot-encoding/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
   

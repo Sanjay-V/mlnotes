@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Accuracy Score</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/sklearn/accuracy-score/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/sklearn/accuracy-score/</guid>
+      <description># Import Numpy library  import numpy as np# Initialize list values y_pred = [0, 2, 0, 2, 1,3] y_true = [0, 2, 3, 2, 1,3]# Importing Accuracy Score metric from sklearn from sklearn.metrics import accuracy_score# Identifying accuracy_score and printing it out score = accuracy_score(y_true, y_pred) print(score) 0.8333333333333334  # Returns the number of correctly classified samples score = accuracy_score(y_true, y_pred, normalize=False) print(score) 5  </description>
+    </item>
+    
+    <item>
       <title>Array Characteristics</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/numpy/array-characteristics/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
@@ -45,6 +54,15 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</guid>
       <description># Import pandas library  import pandas as pd# Create pandas dataframe  data = pd.DataFrame({&amp;#39;Date&amp;#39;:[&amp;#39;10/2/2020&amp;#39;, &amp;#39;11/2/2020&amp;#39;, &amp;#39;12/2/2020&amp;#39;, &amp;#39;13/2/2020&amp;#39;], &amp;#39;Product&amp;#39;:[&amp;#39;Umbrella&amp;#39;, &amp;#39;Matress&amp;#39;, &amp;#39;Badminton&amp;#39;, &amp;#39;Shuttle&amp;#39;], &amp;#39;Last Price&amp;#39;:[1200, 1500, 1600, 352], &amp;#39;Updated Price&amp;#39;:[1300, 1400, 1550, 600], &amp;#39;Discount&amp;#39;:[10, 10, 10, 10]}) # Print the dataframe  print(data)   Date Product Last Price Updated Price Discount 0 10/2/2020 Umbrella 1200 1300 10 1 11/2/2020 Matress 1500 1400 10 2 12/2/2020 Badminton 1600 1550 10 3 13/2/2020 Shuttle 352 600 10  # Condition - Check if the updated price is available or not  if &amp;#39;Updated Price&amp;#39; in data.</description>
+    </item>
+    
+    <item>
+      <title>Confusion Matrix</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/sklearn/confusion-matrix/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/sklearn/confusion-matrix/</guid>
+      <description># Import Numpy library  import numpy as np# Initialize list values y_pred = [0, 2, 0, 2, 1,3] y_true = [0, 2, 3, 2, 1,3]# Importing confusion_matrix metric from sklearn from sklearn.metrics import confusion_matrix# Printing out the confusion matrix matrix = confusion_matrix(y_true, y_pred) print(matrix) [[1 0 0 0] [0 1 0 0] [0 0 2 0] [1 0 0 1]]  </description>
     </item>
     
     <item>
@@ -126,6 +144,33 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-unique-values-from-a-column-in-pandas-dataframe/</guid>
       <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Mark&amp;#39;: 90, &amp;#39;Grade&amp;#39;: &amp;#34;O&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Best&amp;#34;}, {&amp;#39;Mark&amp;#39;: 75, &amp;#39;Grade&amp;#39;: &amp;#34;A&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Needs to be immproved&amp;#34;}, {&amp;#39;Mark&amp;#39;: 40, &amp;#39;Grade&amp;#39;: &amp;#34;F&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Hard work is essential&amp;#34;}] # Print list of dicts  print(data) [{&#39;Mark&#39;: 90, &#39;Grade&#39;: &#39;O&#39;, &#39;Comments&#39;: &#39;Best&#39;}, {&#39;Mark&#39;: 75, &#39;Grade&#39;: &#39;A&#39;, &#39;Comments&#39;: &#39;Needs to be immproved&#39;}, {&#39;Mark&#39;: 40, &#39;Grade&#39;: &#39;F&#39;, &#39;Comments&#39;: &#39;Hard work is essential&#39;}]  # Create the pandas DataFrame  data = pd.</description>
+    </item>
+    
+    <item>
+      <title>Label Encoding</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/sklearn/label-encoding/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/sklearn/label-encoding/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Item&amp;#39;: &amp;#34;Onion&amp;#34;, &amp;#39;Price&amp;#39;: 85}, {&amp;#39;Item&amp;#39;: &amp;#34;Tomato&amp;#34;, &amp;#39;Price&amp;#39;: 80}, {&amp;#39;Item&amp;#39;: &amp;#34;Egg&amp;#34;, &amp;#39;Price&amp;#39;: 5}, {&amp;#39;Item&amp;#39;: &amp;#34;Carrot&amp;#34;, &amp;#39;Price&amp;#39;: 35}, {&amp;#39;Item&amp;#39;: &amp;#34;Cabbage&amp;#34;, &amp;#39;Price&amp;#39;: 30},] # Print list of dicts  print(data) [{&#39;Item&#39;: &#39;Onion&#39;, &#39;Price&#39;: 85}, {&#39;Item&#39;: &#39;Tomato&#39;, &#39;Price&#39;: 80}, {&#39;Item&#39;: &#39;Egg&#39;, &#39;Price&#39;: 5}, {&#39;Item&#39;: &#39;Carrot&#39;, &#39;Price&#39;: 35}, {&#39;Item&#39;: &#39;Cabbage&#39;, &#39;Price&#39;: 30}]  # Create the pandas DataFrame  data = pd.</description>
+    </item>
+    
+    <item>
+      <title>Loading Dataset from Sklearn</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/sklearn/loading-dataset-from-sklearn/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/sklearn/loading-dataset-from-sklearn/</guid>
+      <description># Loading the iris dataset as an example from Sklearn from sklearn.datasets import load_iris iris = load_iris() # Printing the iris dataset print(iris) {&#39;data&#39;: array([[5.1, 3.5, 1.4, 0.2], [4.9, 3. , 1.4, 0.2], [4.7, 3.2, 1.3, 0.2], [4.6, 3.1, 1.5, 0.2], [5. , 3.6, 1.4, 0.2], [5.4, 3.9, 1.7, 0.4], [4.6, 3.4, 1.4, 0.3], [5. , 3.4, 1.5, 0.2], [4.4, 2.9, 1.4, 0.2], [4.9, 3.1, 1.5, 0.1], [5.4, 3.7, 1.5, 0.</description>
+    </item>
+    
+    <item>
+      <title>One Hot Encoding</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/sklearn/one-hot-encoding/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/sklearn/one-hot-encoding/</guid>
+      <description># Import pandas and numpy library  import pandas as pd import numpy as np# Initialize list of dicts  data = [{&amp;#39;Item&amp;#39;: &amp;#34;Onion&amp;#34;, &amp;#39;Price&amp;#39;: 85}, {&amp;#39;Item&amp;#39;: &amp;#34;Tomato&amp;#34;, &amp;#39;Price&amp;#39;: 80}, {&amp;#39;Item&amp;#39;: &amp;#34;Egg&amp;#34;, &amp;#39;Price&amp;#39;: 5}, {&amp;#39;Item&amp;#39;: &amp;#34;Carrot&amp;#34;, &amp;#39;Price&amp;#39;: 35}, {&amp;#39;Item&amp;#39;: &amp;#34;Cabbage&amp;#34;, &amp;#39;Price&amp;#39;: 30},] # Print list of dicts  print(data) [{&#39;Item&#39;: &#39;Onion&#39;, &#39;Price&#39;: 85}, {&#39;Item&#39;: &#39;Tomato&#39;, &#39;Price&#39;: 80}, {&#39;Item&#39;: &#39;Egg&#39;, &#39;Price&#39;: 5}, {&#39;Item&#39;: &#39;Carrot&#39;, &#39;Price&#39;: 35}, {&#39;Item&#39;: &#39;Cabbage&#39;, &#39;Price&#39;: 30}]  # Create the pandas DataFrame  data = pd.</description>
     </item>
     
     <item>
