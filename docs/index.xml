@@ -48,6 +48,15 @@
     </item>
     
     <item>
+      <title>Creating a Pandas Dataframe using string data</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-string-data/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-string-data/</guid>
+      <description># Import pandas library  import pandas as pd# Importing StringIO function from io module  from io import StringIO # Wrap the string data in StringIO function and store it in a variable data = StringIO(&amp;#34;&amp;#34;&amp;#34;Date;Exam;Marks 10/2/2020;Maths;100 11/2/2020;Physics;95 12/2/2020;Chemistry;80 13/2/2020;ComputerScience;85 &amp;#34;&amp;#34;&amp;#34;) # Read the data using Pandas read_csv() function  data = pd.read_csv(data, sep =&amp;#34;;&amp;#34;) # Print dataframe  print(data)   Date Exam Marks 0 10/2/2020 Maths 100 1 11/2/2020 Physics 95 2 12/2/2020 Chemistry 80 3 13/2/2020 ComputerScience 85  </description>
+    </item>
+    
+    <item>
       <title>Making a Pandas DataFrame with two-dimensional list</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
