@@ -57,6 +57,33 @@
     </item>
     
     <item>
+      <title>Getting column names of a Pandas Dataframe</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-column-names-of-a-pandas-dataframe/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-column-names-of-a-pandas-dataframe/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Mark&amp;#39;: 90, &amp;#39;Grade&amp;#39;: &amp;#34;O&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Best&amp;#34;}, {&amp;#39;Mark&amp;#39;: 75, &amp;#39;Grade&amp;#39;: &amp;#34;A&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Needs to be immproved&amp;#34;}] # Print list of dicts  print(data) [{&#39;Mark&#39;: 90, &#39;Grade&#39;: &#39;O&#39;, &#39;Comments&#39;: &#39;Best&#39;}, {&#39;Mark&#39;: 75, &#39;Grade&#39;: &#39;A&#39;, &#39;Comments&#39;: &#39;Needs to be immproved&#39;}]  # Create the pandas DataFrame  data = pd.DataFrame(data, index =[&amp;#39;Stephen&amp;#39;, &amp;#39;Jerry&amp;#39;]) # Print dataframe  print(data)   Mark Grade Comments Stephen 90 O Best Jerry 75 A Needs to be immproved  # iterating the columns  for col in data.</description>
+    </item>
+    
+    <item>
+      <title>Getting unique values from a column in Pandas Dataframe</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-unique-values-from-a-column-in-pandas-dataframe/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/getting-unique-values-from-a-column-in-pandas-dataframe/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Mark&amp;#39;: 90, &amp;#39;Grade&amp;#39;: &amp;#34;O&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Best&amp;#34;}, {&amp;#39;Mark&amp;#39;: 75, &amp;#39;Grade&amp;#39;: &amp;#34;A&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Needs to be immproved&amp;#34;}, {&amp;#39;Mark&amp;#39;: 40, &amp;#39;Grade&amp;#39;: &amp;#34;F&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Hard work is essential&amp;#34;}] # Print list of dicts  print(data) [{&#39;Mark&#39;: 90, &#39;Grade&#39;: &#39;O&#39;, &#39;Comments&#39;: &#39;Best&#39;}, {&#39;Mark&#39;: 75, &#39;Grade&#39;: &#39;A&#39;, &#39;Comments&#39;: &#39;Needs to be immproved&#39;}, {&#39;Mark&#39;: 40, &#39;Grade&#39;: &#39;F&#39;, &#39;Comments&#39;: &#39;Hard work is essential&#39;}]  # Create the pandas DataFrame  data = pd.</description>
+    </item>
+    
+    <item>
+      <title>Renaming column names of a Pandas Dataframe</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/renaming-column-names-of-a-pandas-dataframe/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/renaming-column-names-of-a-pandas-dataframe/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Mark&amp;#39;: 90, &amp;#39;Grade&amp;#39;: &amp;#34;O&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Best&amp;#34;}, {&amp;#39;Mark&amp;#39;: 75, &amp;#39;Grade&amp;#39;: &amp;#34;A&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Needs to be immproved&amp;#34;}] # Print list of dicts  print(data) [{&#39;Mark&#39;: 90, &#39;Grade&#39;: &#39;O&#39;, &#39;Comments&#39;: &#39;Best&#39;}, {&#39;Mark&#39;: 75, &#39;Grade&#39;: &#39;A&#39;, &#39;Comments&#39;: &#39;Needs to be immproved&#39;}]  # Create the pandas DataFrame  data = pd.DataFrame(data, index =[&amp;#39;Stephen&amp;#39;, &amp;#39;Jerry&amp;#39;]) # Print dataframe  print(data)   Mark Grade Comments Stephen 90 O Best Jerry 75 A Needs to be immproved  # Iterating the column names for col in data.</description>
+    </item>
+    
+    <item>
       <title>Making a Pandas DataFrame with two-dimensional list</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
