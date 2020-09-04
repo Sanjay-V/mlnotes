@@ -16,14 +16,14 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Making a Pandas DataFrame with two-dimensional list" />
+<meta property="og:title" content="Creating a Pandas Dataframe using list of tuples" />
 <meta property="og:description" content="-" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/" /><meta property="article:published_time" content="2020-08-11T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2020-08-11T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-tuples/" /><meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2020-09-04T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Making a Pandas DataFrame with two-dimensional list"/>
+<meta name="twitter:title" content="Creating a Pandas Dataframe using list of tuples"/>
 <meta name="twitter:description" content="-"/>
 <meta name="generator" content="Hugo 0.50" /> 
     
@@ -32,11 +32,11 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Making a Pandas DataFrame with two-dimensional list",
-  "url": "https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/",
-  "wordCount": "57",
-  "datePublished": "2020-08-11T00:00:00&#43;00:00",
-  "dateModified": "2020-08-11T00:00:00&#43;00:00",
+  "headline": "Creating a Pandas Dataframe using list of tuples",
+  "url": "https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-tuples/",
+  "wordCount": "66",
+  "datePublished": "2020-09-04T00:00:00&#43;00:00",
+  "dateModified": "2020-09-04T00:00:00&#43;00:00",
   "author": {
     "@type": "Person",
     "name": "Sanjay"
@@ -45,7 +45,7 @@
 }
 </script> 
 
-    <title>Making a Pandas DataFrame with two-dimensional list</title>
+    <title>Creating a Pandas Dataframe using list of tuples</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -117,22 +117,26 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       
-    <h1 class="technical_note_title">Making a Pandas DataFrame with two-dimensional list</h1>
+    <h1 class="technical_note_title">Creating a Pandas Dataframe using list of tuples</h1>
     <div class="technical_note_date">
-      <time datetime=" 2020-08-11T00:00:00Z "> 11 Aug 2020</time>
+      <time datetime=" 2020-09-04T00:00:00Z "> 04 Sep 2020</time>
     </div>
   </header>
   <div class="content">
-  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">lst</span> <span class="o">=</span> <span class="p">[[</span><span class="s1">&#39;Nicole&#39;</span><span class="p">,</span> <span class="s1">&#39;Williamson&#39;</span><span class="p">,</span> <span class="mi">23</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;William&#39;</span><span class="p">,</span> <span class="s1">&#39;Smith&#39;</span><span class="p">,</span> <span class="mi">29</span><span class="p">],</span>  
-       <span class="p">[</span><span class="s1">&#39;Nick&#39;</span><span class="p">,</span> <span class="s1">&#39;Fury&#39;</span><span class="p">,</span> <span class="mi">30</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;Vin&#39;</span><span class="p">,</span> <span class="s1">&#39;williams&#39;</span><span class="p">,</span> <span class="mi">22</span><span class="p">]]</span> </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span></code></pre></div>
-<pre><code>[['Nicole', 'Williamson', 23], ['William', 'Smith', 29], ['Nick', 'Fury', 30], ['Vin', 'williams', 22]]
+  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Import pandas library  </span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize list of tuples</span>
+<span class="n">lst</span> <span class="o">=</span> <span class="p">[(</span><span class="s1">&#39;Numpy&#39;</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;Pandas&#39;</span><span class="p">,</span> <span class="mi">15</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;Matplotlib&#39;</span><span class="p">,</span> <span class="mi">20</span><span class="p">),</span> <span class="p">(</span><span class="s1">&#39;Scikit-Learn&#39;</span><span class="p">,</span> <span class="mi">25</span><span class="p">)]</span>  </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print list of tuples </span>
+<span class="k">print</span><span class="p">(</span><span class="n">lst</span><span class="p">)</span></code></pre></div>
+<pre><code>[('Numpy', 10), ('Pandas', 15), ('Matplotlib', 20), ('Scikit-Learn', 25)]
 </code></pre>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span><span class="p">[</span><span class="s1">&#39;FirstName&#39;</span><span class="p">,</span> <span class="s1">&#39;LastName&#39;</span><span class="p">,</span> <span class="s1">&#39;Age&#39;</span><span class="p">])</span>  </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="k">print</span><span class="p">(</span><span class="n">df</span><span class="p">)</span></code></pre></div>
-<pre><code>  FirstName    LastName  Age
-0    Nicole  Williamson   23
-1   William       Smith   29
-2      Nick        Fury   30
-3       Vin    williams   22
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Create the pandas DataFrame </span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">lst</span><span class="p">,</span> <span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;Tech&#39;</span><span class="p">,</span> <span class="s1">&#39;Points&#39;</span><span class="p">])</span> </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print dataframe  </span>
+<span class="k">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> </code></pre></div>
+<pre><code>           Tech  Points
+0         Numpy      10
+1        Pandas      15
+2    Matplotlib      20
+3  Scikit-Learn      25
 </code></pre>
 
 </div>

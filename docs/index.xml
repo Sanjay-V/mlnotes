@@ -21,6 +21,33 @@
     </item>
     
     <item>
+      <title>Creating a Dataframe from Pandas Series</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-dataframe-from-pandas-series/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-dataframe-from-pandas-series/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize lists values students = [&amp;#39;Steven&amp;#39;, &amp;#39;James&amp;#39;, &amp;#39;Ronald&amp;#39;, &amp;#39;Han&amp;#39;] marks = [90, 95, 65, 73] # Print students list values print(student) [&#39;Steven&#39;, &#39;James&#39;, &#39;Ronald&#39;, &#39;Han&#39;]  # Print marks list values print(marks) [90, 95, 65, 73]  # Importing Series from Pandas for students list and printing it out students = pd.Series(students) marks = pd.Series(marks) print(students) 0 Steven 1 James 2 Ronald 3 Han dtype: object  # Importing Series from Pandas for marks list and printing it out marks = pd.</description>
+    </item>
+    
+    <item>
+      <title>Creating a Pandas Dataframe using list of dicts</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-dicts/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-dicts/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Raghul&amp;#39;: 90, &amp;#39;Ramesh&amp;#39;: 85, &amp;#39;Steven&amp;#39;: 70}, {&amp;#39;Raghul&amp;#39;: &amp;#39;O&amp;#39;, &amp;#39;Ramesh&amp;#39;: &amp;#39;A+&amp;#39;, &amp;#39;Steven&amp;#39;: &amp;#39;A&amp;#39;}] # Print list of dicts  print(data) [{&#39;Raghul&#39;: 90, &#39;Ramesh&#39;: 85, &#39;Steven&#39;: 70}, {&#39;Raghul&#39;: &#39;O&#39;, &#39;Ramesh&#39;: &#39;A+&#39;, &#39;Steven&#39;: &#39;A&#39;}]  # Create the pandas DataFrame  data = pd.DataFrame(data, index =[&amp;#39;Marks&amp;#39;, &amp;#39;Grade&amp;#39;]) # Print dataframe  print(data)   Raghul Ramesh Steven Marks 90 85 70 Grade O A+ A  </description>
+    </item>
+    
+    <item>
+      <title>Creating a Pandas Dataframe using list of tuples</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-tuples/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-tuples/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of tuples lst = [(&amp;#39;Numpy&amp;#39;, 10), (&amp;#39;Pandas&amp;#39;, 15), (&amp;#39;Matplotlib&amp;#39;, 20), (&amp;#39;Scikit-Learn&amp;#39;, 25)] # Print list of tuples  print(lst) [(&#39;Numpy&#39;, 10), (&#39;Pandas&#39;, 15), (&#39;Matplotlib&#39;, 20), (&#39;Scikit-Learn&#39;, 25)]  # Create the pandas DataFrame  data = pd.DataFrame(lst, columns = [&amp;#39;Tech&amp;#39;, &amp;#39;Points&amp;#39;]) # Print dataframe  print(data)   Tech Points 0 Numpy 10 1 Pandas 15 2 Matplotlib 20 3 Scikit-Learn 25  </description>
+    </item>
+    
+    <item>
       <title>Making a Pandas DataFrame with two-dimensional list</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/making-a-pandas-dataframe-with-two-dimensional-list/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
