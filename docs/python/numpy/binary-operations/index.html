@@ -16,14 +16,14 @@
     <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<meta property="og:title" content="Creating a Pandas Dataframe using list of dicts" />
+<meta property="og:title" content="Binary Operations" />
 <meta property="og:description" content="-" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-dicts/" /><meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://Sanjay-V.github.io/mlnotes/python/numpy/binary-operations/" /><meta property="article:published_time" content="2020-09-04T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2020-09-04T00:00:00&#43;00:00"/>
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Creating a Pandas Dataframe using list of dicts"/>
+<meta name="twitter:title" content="Binary Operations"/>
 <meta name="twitter:description" content="-"/>
 <meta name="generator" content="Hugo 0.50" /> 
     
@@ -32,9 +32,9 @@
 {
   "@context": "http://schema.org",
   "@type": "BlogPosting",
-  "headline": "Creating a Pandas Dataframe using list of dicts",
-  "url": "https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-list-of-dicts/",
-  "wordCount": "70",
+  "headline": "Binary Operations",
+  "url": "https://Sanjay-V.github.io/mlnotes/python/numpy/binary-operations/",
+  "wordCount": "81",
   "datePublished": "2020-09-04T00:00:00&#43;00:00",
   "dateModified": "2020-09-04T00:00:00&#43;00:00",
   "author": {
@@ -45,7 +45,7 @@
 }
 </script> 
 
-    <title>Creating a Pandas Dataframe using list of dicts</title>
+    <title>Binary Operations</title>
 
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
@@ -117,25 +117,34 @@ MathJax.Hub.Config({
   <div class="technical_note">
   <header>
       
-    <h1 class="technical_note_title">Creating a Pandas Dataframe using list of dicts</h1>
+    <h1 class="technical_note_title">Binary Operations</h1>
     <div class="technical_note_date">
       <time datetime=" 2020-09-04T00:00:00Z "> 04 Sep 2020</time>
     </div>
   </header>
   <div class="content">
-  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Import pandas library  </span>
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Initialize list of dicts </span>
-<span class="n">data</span> <span class="o">=</span> <span class="p">[{</span><span class="s1">&#39;Raghul&#39;</span><span class="p">:</span> <span class="mi">90</span><span class="p">,</span> <span class="s1">&#39;Ramesh&#39;</span><span class="p">:</span> <span class="mi">85</span><span class="p">,</span> <span class="s1">&#39;Steven&#39;</span><span class="p">:</span> <span class="mi">70</span><span class="p">},</span> 
-        <span class="p">{</span><span class="s1">&#39;Raghul&#39;</span><span class="p">:</span> <span class="s1">&#39;O&#39;</span><span class="p">,</span> <span class="s1">&#39;Ramesh&#39;</span><span class="p">:</span> <span class="s1">&#39;A+&#39;</span><span class="p">,</span> <span class="s1">&#39;Steven&#39;</span><span class="p">:</span> <span class="s1">&#39;A&#39;</span><span class="p">}]</span>  </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print list of dicts </span>
-<span class="k">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span></code></pre></div>
-<pre><code>[{'Raghul': 90, 'Ramesh': 85, 'Steven': 70}, {'Raghul': 'O', 'Ramesh': 'A+', 'Steven': 'A'}]
+  <div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Importing numpy library</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Creating array A</span>
+<span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span> <span class="p">[[</span> <span class="mi">71</span><span class="p">,</span> <span class="mi">82</span><span class="p">],</span>
+                 <span class="p">[</span> <span class="mi">48</span><span class="p">,</span> <span class="mi">23</span><span class="p">]]</span> <span class="p">)</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Creating array B</span>
+<span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span>
+            <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">7</span><span class="p">]])</span></code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Adding arrays and printing it out</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Array sum:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">A</span> <span class="o">+</span> <span class="n">B</span><span class="p">)</span></code></pre></div>
+<pre><code>Array sum:
+ [[76 84]
+ [51 30]]
 </code></pre>
-<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Create the pandas DataFrame </span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">index</span> <span class="o">=</span><span class="p">[</span><span class="s1">&#39;Marks&#39;</span><span class="p">,</span> <span class="s1">&#39;Grade&#39;</span><span class="p">])</span> </code></pre></div><div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Print dataframe  </span>
-<span class="k">print</span><span class="p">(</span><span class="n">data</span><span class="p">)</span> </code></pre></div>
-<pre><code>      Raghul Ramesh Steven
-Marks     90     85     70
-Grade      O     A+      A
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Multiply arrays A and B (elementwise multiplication)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Array multiplication:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">A</span><span class="o">*</span><span class="n">B</span><span class="p">)</span></code></pre></div>
+<pre><code>Array multiplication:
+ [[355 164]
+ [144 161]]
+</code></pre>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="c1"># Multiply arrays A and B (matrix multiplication)</span>
+<span class="k">print</span><span class="p">(</span><span class="s2">&#34;Matrix multiplication:</span><span class="se">\n</span><span class="s2">&#34;</span><span class="p">,</span> <span class="n">A</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">B</span><span class="p">))</span></code></pre></div>
+<pre><code>Matrix multiplication:
+ [[601 716]
+ [309 257]]
 </code></pre>
 
 </div>

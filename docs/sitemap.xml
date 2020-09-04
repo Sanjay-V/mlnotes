@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/array-characteristics/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/array-operations/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/binary-operations/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
@@ -54,6 +69,16 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/renaming-column-names-of-a-pandas-dataframe/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/unary-operations/</loc>
+    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/numpy/universal-functions/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
   

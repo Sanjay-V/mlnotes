@@ -12,6 +12,33 @@
     
     
     <item>
+      <title>Array Characteristics</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/array-characteristics/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/array-characteristics/</guid>
+      <description># Importing numpy library import numpy as np# Creating array object arr = np.array( [[ 71, 82, 53], [ 48, 23, 56]] )# Printing type of arr object print(&amp;#34;Array is of type: &amp;#34;, type(arr)) Array is of type: &amp;lt;class &#39;numpy.ndarray&#39;&amp;gt;  # Printing array dimensions (axes) print(&amp;#34;No. of dimensions: &amp;#34;, arr.ndim) No. of dimensions: 2  # Printing shape of array print(&amp;#34;Shape of array: &amp;#34;, arr.shape) Shape of array: (2, 3)  # Printing size (total number of elements) of array print(&amp;#34;Size of array: &amp;#34;, arr.</description>
+    </item>
+    
+    <item>
+      <title>Array Operations</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/array-operations/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/array-operations/</guid>
+      <description># Importing numpy library import numpy as np# Defining Array A A = np.array([[17, 23], [34, 46]])# Defining Array B B = np.array([[48, 39], [25, 14]])# Adding 5 to every element in Array A print(&amp;#34;Adding 5 to every element in Array A:&amp;#34;, A + 5) Adding 5 to every element in Array A: [[22 28] [39 51]]  # Subtracting 2 from each element print(&amp;#34;\nSubtracting 2 from each element of Array B:&amp;#34;, B - 2) Subtracting 2 from each element of Array B: [[46 37] [23 12]]  # Sum of Array A elements performing Unary operations print (&amp;#34;\nSum of all array A elements: &amp;#34;, A.</description>
+    </item>
+    
+    <item>
+      <title>Binary Operations</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/binary-operations/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/binary-operations/</guid>
+      <description># Importing numpy library import numpy as np# Creating array A A = np.array( [[ 71, 82], [ 48, 23]] )# Creating array B B = np.array([[5, 2], [3, 7]])# Adding arrays and printing it out print(&amp;#34;Array sum:\n&amp;#34;, A + B) Array sum: [[76 84] [51 30]]  # Multiply arrays A and B (elementwise multiplication) print(&amp;#34;Array multiplication:\n&amp;#34;, A*B) Array multiplication: [[355 164] [144 161]]  # Multiply arrays A and B (matrix multiplication) print(&amp;#34;Matrix multiplication:\n&amp;#34;, A.</description>
+    </item>
+    
+    <item>
       <title>Conditional operation on Pandas Dataframe columns</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
@@ -108,6 +135,24 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/renaming-column-names-of-a-pandas-dataframe/</guid>
       <description># Import pandas library  import pandas as pd# Initialize list of dicts  data = [{&amp;#39;Mark&amp;#39;: 90, &amp;#39;Grade&amp;#39;: &amp;#34;O&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Best&amp;#34;}, {&amp;#39;Mark&amp;#39;: 75, &amp;#39;Grade&amp;#39;: &amp;#34;A&amp;#34;, &amp;#39;Comments&amp;#39;: &amp;#34;Needs to be immproved&amp;#34;}] # Print list of dicts  print(data) [{&#39;Mark&#39;: 90, &#39;Grade&#39;: &#39;O&#39;, &#39;Comments&#39;: &#39;Best&#39;}, {&#39;Mark&#39;: 75, &#39;Grade&#39;: &#39;A&#39;, &#39;Comments&#39;: &#39;Needs to be immproved&#39;}]  # Create the pandas DataFrame  data = pd.DataFrame(data, index =[&amp;#39;Stephen&amp;#39;, &amp;#39;Jerry&amp;#39;]) # Print dataframe  print(data)   Mark Grade Comments Stephen 90 O Best Jerry 75 A Needs to be immproved  # Iterating the column names for col in data.</description>
+    </item>
+    
+    <item>
+      <title>Unary Operations</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/unary-operations/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/unary-operations/</guid>
+      <description># Importing numpy library import numpy as np# Creating array object arr = np.array( [[ 71, 82, 53], [ 48, 23, 56]] )# Printing the maximum element in a array print(&amp;#34;Largest element is:&amp;#34;, arr.max()) Largest element is: 82  # Printing row-wise maximum elements print(&amp;#34;Row-wise maximum elements:&amp;#34;, arr.max(axis = 1)) Row-wise maximum elements: [82 56]  # Printing column-wise maximum elements print(&amp;#34;Column-wise maximum elements:&amp;#34;, arr.max(axis = 0)) Column-wise maximum elements: [71 82 56]  # Sum of array elements print(&amp;#34;Sum of all array elements:&amp;#34;, arr.</description>
+    </item>
+    
+    <item>
+      <title>Universal Functions</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/numpy/universal-functions/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/numpy/universal-functions/</guid>
+      <description># Importing numpy library import numpy as np# Creating array A A = np.array( [[ 71, 82], [ 48, 23]] )# Printing an array of sine values print(&amp;#34;Sine values of array elements:&amp;#34;, np.sin(A)) Sine values of array elements: [[ 0.95105465 0.31322878] [-0.76825466 -0.8462204 ]]  # Printing an array of exponential values print(&amp;#34;Exponent of array elements:&amp;#34;, np.exp(A)) Exponent of array elements: [[6.83767123e+30 4.09399696e+35] [7.01673591e+20 9.74480345e+09]]  # Printing square root of array values print(&amp;#34;Square root of array elements:&amp;#34;, np.</description>
     </item>
     
     <item>
