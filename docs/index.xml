@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Conditional operation on Pandas Dataframe columns</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/conditional-operation-on-pandas-dataframe-columns/</guid>
+      <description># Import pandas library  import pandas as pd# Create pandas dataframe  data = pd.DataFrame({&amp;#39;Date&amp;#39;:[&amp;#39;10/2/2020&amp;#39;, &amp;#39;11/2/2020&amp;#39;, &amp;#39;12/2/2020&amp;#39;, &amp;#39;13/2/2020&amp;#39;], &amp;#39;Product&amp;#39;:[&amp;#39;Umbrella&amp;#39;, &amp;#39;Matress&amp;#39;, &amp;#39;Badminton&amp;#39;, &amp;#39;Shuttle&amp;#39;], &amp;#39;Last Price&amp;#39;:[1200, 1500, 1600, 352], &amp;#39;Updated Price&amp;#39;:[1300, 1400, 1550, 600], &amp;#39;Discount&amp;#39;:[10, 10, 10, 10]}) # Print the dataframe  print(data)   Date Product Last Price Updated Price Discount 0 10/2/2020 Umbrella 1200 1300 10 1 11/2/2020 Matress 1500 1400 10 2 12/2/2020 Badminton 1600 1550 10 3 13/2/2020 Shuttle 352 600 10  # Condition - Check if the updated price is available or not  if &amp;#39;Updated Price&amp;#39; in data.</description>
+    </item>
+    
+    <item>
       <title>Creating Pandas Dataframe using list of lists</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-pandas-dataframe-using-list-of-lists/</link>
       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
@@ -54,6 +63,15 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-a-pandas-dataframe-using-string-data/</guid>
       <description># Import pandas library  import pandas as pd# Importing StringIO function from io module  from io import StringIO # Wrap the string data in StringIO function and store it in a variable data = StringIO(&amp;#34;&amp;#34;&amp;#34;Date;Exam;Marks 10/2/2020;Maths;100 11/2/2020;Physics;95 12/2/2020;Chemistry;80 13/2/2020;ComputerScience;85 &amp;#34;&amp;#34;&amp;#34;) # Read the data using Pandas read_csv() function  data = pd.read_csv(data, sep =&amp;#34;;&amp;#34;) # Print dataframe  print(data)   Date Exam Marks 0 10/2/2020 Maths 100 1 11/2/2020 Physics 95 2 12/2/2020 Chemistry 80 3 13/2/2020 ComputerScience 85  </description>
+    </item>
+    
+    <item>
+      <title>Dropping columns of a Pandas Dataframe</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/dropping-columns-of-a-pandas-dataframe/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/dropping-columns-of-a-pandas-dataframe/</guid>
+      <description># Import pandas library  import pandas as pd# Create pandas dataframe  data = pd.DataFrame({&amp;#39;Date&amp;#39;:[&amp;#39;10/2/2020&amp;#39;, &amp;#39;11/2/2020&amp;#39;, &amp;#39;12/2/2020&amp;#39;, &amp;#39;13/2/2020&amp;#39;], &amp;#39;Product&amp;#39;:[&amp;#39;Umbrella&amp;#39;, &amp;#39;Matress&amp;#39;, &amp;#39;Badminton&amp;#39;, &amp;#39;Shuttle&amp;#39;], &amp;#39;Last Price&amp;#39;:[1200, 1500, 1600, 352], &amp;#39;Updated Price&amp;#39;:[1300, 1400, 1550, 600], &amp;#39;Discount&amp;#39;:[10, 10, 10, 10]}) # Print the dataframe  print(data)   Date Product Last Price Updated Price Discount 0 10/2/2020 Umbrella 1200 1300 10 1 11/2/2020 Matress 1500 1400 10 2 12/2/2020 Badminton 1600 1550 10 3 13/2/2020 Shuttle 352 600 10  # Dropping column of dataframe data = data.</description>
     </item>
     
     <item>
