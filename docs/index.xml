@@ -6,10 +6,19 @@
     <description>Recent content on Sanjay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://Sanjay-V.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Creating Pandas Dataframe using list of lists</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-pandas-dataframe-using-list-of-lists/</link>
+      <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/creating-pandas-dataframe-using-list-of-lists/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize list of lists  lst = [[&amp;#39;Numpy&amp;#39;, 10], [&amp;#39;Pandas&amp;#39;, 15], [&amp;#39;Matplotlib&amp;#39;, 20]] # Print list of lists  print(lst) [[&#39;Numpy&#39;, 10], [&#39;Pandas&#39;, 15], [&#39;Matplotlib&#39;, 20]]  # Create the pandas DataFrame  data = pd.DataFrame(lst, columns = [&amp;#39;Tech&amp;#39;, &amp;#39;Points&amp;#39;]) # Print dataframe  print(data)   Tech Points 0 Numpy 10 1 Pandas 15 2 Matplotlib 20  </description>
+    </item>
     
     <item>
       <title>Making a Pandas DataFrame with two-dimensional list</title>
