@@ -219,12 +219,57 @@
     </item>
     
     <item>
+      <title>Clearing a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/clearing-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/clearing-a-list/</guid>
+      <description># Creating a list  lst = [&amp;#34;Hello&amp;#34;, 26, &amp;#34;Robert&amp;#34;, 1] # Printing the list before clear function print(&amp;#39;lst before clear:&amp;#39;, lst)  lst before clear: [&#39;Hello&#39;, 26, &#39;Robert&#39;, 1]  # Calling the clear() built-in function lst.clear() # Printing the list after claer function print(&amp;#39;lst after clear:&amp;#39;, lst)  lst after clear: []  </description>
+    </item>
+    
+    <item>
+      <title>Factorial</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/factorial/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/factorial/</guid>
+      <description># Assigning factorial function def factorial(n): if n &amp;lt; 0: return 0 elif n == 0 or n == 1: return 1 else: fact = 1 while(n &amp;gt; 1): fact *= n n -= 1 return fact # Assigning value for factorial function num = 3# Calling factorial function fact = factorial(num) print(&amp;#34;Factorial of&amp;#34;, num, &amp;#34;is&amp;#34;, fact)  Factorial of 3 is 6  </description>
+    </item>
+    
+    <item>
+      <title>Length of a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/length-of-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/length-of-a-list/</guid>
+      <description># Assigning an empty list lst = [] # Adding values to empty list lst.append(&amp;#34;Hello&amp;#34;) lst.append(34) lst.append(&amp;#34;Stephen&amp;#34;) lst.append(42.0) # Printing the list print(&amp;#34;The length of list is: &amp;#34;, len(lst))  The length of list is: 4  </description>
+    </item>
+    
+    <item>
+      <title>Reversing a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/reversing-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/reversing-a-list/</guid>
+      <description># Reversing a list using reverse() assigned in a function def Reverse(lst): lst.reverse() return lst # Assigning values to list lst = [10, 11, 12, 13, 14, 15] # Printing the Reversed list print(Reverse(lst)) [15, 14, 13, 12, 11, 10]  </description>
+    </item>
+    
+    <item>
       <title>Simple Python</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/basics/simple-python/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/basics/simple-python/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Swapping First and Last Elements of a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/swapping-first-and-last-elements-of-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/swapping-first-and-last-elements-of-a-list/</guid>
+      <description># Assigning Swap function  def swap(new): new[0], new[-1] = new[-1], new[0] return new# Assigning value for swap function new = [23, 36, 90, 57, 64] # Calling swap function value = (swap(new)) print(&amp;#34;New list will be &amp;#34;, value)  New list will be [64, 36, 90, 57, 23]  </description>
     </item>
     
     <item>
