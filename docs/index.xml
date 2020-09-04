@@ -237,6 +237,33 @@
     </item>
     
     <item>
+      <title>Finding largest number in a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/finding-largest-number-in-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/finding-largest-number-in-a-list/</guid>
+      <description># Creating a list  lst = [53, 26, 14, 91] # Calling the max() built-in function data = max(lst)# Printing the minimum element  print(&amp;#34;The Largest element in a list is:&amp;#34;, data) The Largest element in a list is: 91  </description>
+    </item>
+    
+    <item>
+      <title>Finding smallest number in a list</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/finding-smallest-number-in-a-list/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/finding-smallest-number-in-a-list/</guid>
+      <description># Creating a list  lst = [53, 26, 14, 91] # Calling the min() built-in function data = min(lst)# Printing the minimum element  print(&amp;#34;The Smallest element in a list is:&amp;#34;, data) The Smallest element in a list is: 14  </description>
+    </item>
+    
+    <item>
+      <title>Joining the string</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/joining-the-string/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/joining-the-string/</guid>
+      <description># Assigning a string value to the variable input = &amp;#39;New Delhi is the capital of India&amp;#39;# Split the string into words by calling split() built-in function data = input.split(&amp;#39; &amp;#39;)# Print the splitted string print(data) [&#39;New&#39;, &#39;Delhi&#39;, &#39;is&#39;, &#39;the&#39;, &#39;capital&#39;, &#39;of&#39;, &#39;India&#39;]  # Join the string by calling join() built-in function string = &amp;#39;-&amp;#39;.join(data)# Print the joined string print(string) New-Delhi-is-the-capital-of-India  </description>
+    </item>
+    
+    <item>
       <title>Length of a list</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/basics/length-of-a-list/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
@@ -255,12 +282,30 @@
     </item>
     
     <item>
+      <title>Reversing words of a string</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/reversing-words-of-a-string/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/reversing-words-of-a-string/</guid>
+      <description># Assigning a string value to the variable input = &amp;#39;New Delhi is the capital of India&amp;#39;# Split the string into words data = input.split(&amp;#39; &amp;#39;)# Calling the reversed() built-in function to reverse the string data = &amp;#39; &amp;#39;.join(reversed(data))# Printing the reversed string print(data) India of capital the is Delhi New  </description>
+    </item>
+    
+    <item>
       <title>Simple Python</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/basics/simple-python/</link>
       <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/basics/simple-python/</guid>
       <description>print(&amp;#39;Hello Toronto&amp;#39;) Hello Toronto  print(2) 2  </description>
+    </item>
+    
+    <item>
+      <title>Splitting the string</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/basics/splitting-the-string/</link>
+      <pubDate>Sat, 20 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/basics/splitting-the-string/</guid>
+      <description># Assigning a string value to the variable input = &amp;#39;New Delhi is the capital of India&amp;#39;# Split the string into words by calling split() built-in function data = input.split(&amp;#39; &amp;#39;)# Print the splitted string print(data) [&#39;New&#39;, &#39;Delhi&#39;, &#39;is&#39;, &#39;the&#39;, &#39;capital&#39;, &#39;of&#39;, &#39;India&#39;]  </description>
     </item>
     
     <item>
