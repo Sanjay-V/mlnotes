@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/3d-scatter-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/accessing-data-from-pandas-series-with-position/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -63,7 +68,17 @@
   </url>
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/null-values-representation/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/seaborn/pair-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/pie-chart/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -94,6 +109,11 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/seaborn/violin-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/working-with-text-data/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
   

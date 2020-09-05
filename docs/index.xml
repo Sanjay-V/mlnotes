@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>3D Scatter Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/3d-scatter-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/3d-scatter-plot/</guid>
+      <description># Import libraries  from mpl_toolkits import mplot3d import numpy as np import matplotlib.pyplot as plt # Creating dataset  z = np.random.randint(100, size =(50)) x = np.random.randint(80, size =(50)) y = np.random.randint(60, size =(50)) # Creating figure  fig = plt.figure(figsize = (10, 7)) ax = plt.axes(projection =&amp;#34;3d&amp;#34;) # Creating plot  ax.scatter3D(x, y, z, color = &amp;#34;green&amp;#34;) plt.title(&amp;#34;simple 3D scatter plot&amp;#34;) # Function to show the plot  plt.</description>
+    </item>
+    
+    <item>
       <title>Accessing Data from Pandas Series with Position</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/pandas/accessing-data-from-pandas-series-with-position/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
@@ -120,12 +129,30 @@
     </item>
     
     <item>
+      <title>Null Values Representation</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/null-values-representation/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/null-values-representation/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize values with indices a = pd.Series([1,2,3,4,5],index = [&amp;#39;a&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;e&amp;#39;,&amp;#39;f&amp;#39;,&amp;#39;i&amp;#39;])# Print the Pandas Series values print(a) a 1 c 2 e 3 f 4 i 5 dtype: int64  # Reindexing the index a = a.reindex([&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;, &amp;#39;c&amp;#39;, &amp;#39;d&amp;#39;, &amp;#39;e&amp;#39;, &amp;#39;f&amp;#39;, &amp;#39;g&amp;#39;, &amp;#39;h&amp;#39;])# Print the Reindexed indices with values print(a) a 1.0 b NaN c 2.0 d NaN e 3.0 f 4.0 g NaN h NaN dtype: float64  # Print True for Null values to represent it print(a.</description>
+    </item>
+    
+    <item>
       <title>Pair Plot</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/pair-plot/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/pair-plot/</guid>
       <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out data = sns.load_dataset(&amp;#39;tips&amp;#39;) print(data)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Pie Chart</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/pie-chart/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/pie-chart/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # Defining labels  activities = [&amp;#39;eat&amp;#39;, &amp;#39;sleep&amp;#39;, &amp;#39;work&amp;#39;, &amp;#39;play&amp;#39;]# Portion covered by each label  slices = [4, 8, 7, 5] # Color for each label  colors = [&amp;#39;r&amp;#39;, &amp;#39;y&amp;#39;, &amp;#39;g&amp;#39;, &amp;#39;b&amp;#39;] # Plotting the Pie chart  plt.pie(slices, labels = activities, colors=colors, startangle=90, shadow = True, explode = (0, 0, 0.1, 0), radius = 1.2, autopct = &amp;#39;%1.</description>
     </item>
     
     <item>
@@ -180,6 +207,15 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/violin-plot/</guid>
       <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Working with Text Data</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/working-with-text-data/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/working-with-text-data/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize values with Pandas Series a = pd.Series([&amp;#39;Tom&amp;#39;, &amp;#39;William Rick&amp;#39;, &amp;#39;John&amp;#39;, &amp;#39;Albert&amp;#39;, &amp;#39;1234&amp;#39;, &amp;#39;SteveSmith&amp;#39;])# Print Pandas Series values print(a) 0 Tom 1 William Rick 2 John 3 Albert 4 1234 5 SteveSmith dtype: object  # Calling lower() built-in function and printing the values print(a.str.lower()) 0 tom 1 william rick 2 john 3 albert 4 1234 5 stevesmith dtype: object  # Calling upper() built-in function and printing the values print(a.</description>
     </item>
     
     <item>
