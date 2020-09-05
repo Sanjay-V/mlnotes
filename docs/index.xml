@@ -21,12 +21,66 @@
     </item>
     
     <item>
+      <title>Bar Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/bar-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/bar-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Box Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/box-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/box-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Cat Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/cat-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/cat-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Count Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/count-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/count-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Dist Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/dist-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/dist-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out data = sns.load_dataset(&amp;#39;tips&amp;#39;) print(data)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
       <title>Histogram</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</guid>
       <description># Importing Matplotlib library from matplotlib import pyplot as plt # y-axis values  y = [10, 35, 58, 64] # Function to plot y values plt.hist(y) # Function to show the plot  plt.show()  </description>
+    </item>
+    
+    <item>
+      <title>Joint Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/joint-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/joint-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
     </item>
     
     <item>
@@ -48,12 +102,48 @@
     </item>
     
     <item>
+      <title>Pair Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/pair-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/pair-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out data = sns.load_dataset(&amp;#39;tips&amp;#39;) print(data)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Plotting Categorical Scatter Plots</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/plotting-categorical-scatter-plots/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/plotting-categorical-scatter-plots/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Assigning x axis values  x =[&amp;#39;Sun&amp;#39;, &amp;#39;Mon&amp;#39;, &amp;#39;Tues&amp;#39;, &amp;#39;Wednes&amp;#39;, &amp;#39;Thurs&amp;#39;, &amp;#39;Fri&amp;#39;, &amp;#39;Satur&amp;#39;] # Assigning y axis values  y =[5, 6, 4, 6.5, 2.3, 4.9, 8.8] # Plotting Strip plot with Seaborn  a = sns.stripplot(x, y) # Giving labels to x-axis and y-axis  a.set(xlabel =&amp;#39;Days&amp;#39;, ylabel =&amp;#39;Work-Load&amp;#39;) # Giving title to the plot  plt.</description>
+    </item>
+    
+    <item>
       <title>Scatter Plot</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/scatter-plot/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/scatter-plot/</guid>
       <description># Importing Matplotlib library from matplotlib import pyplot as plt # x-axis values  x = [15, 20, 39, 44] # y-axis values  y = [10, 35, 58, 64] # Function to plot x and y values plt.scatter(x,y) # Function to show the plot  plt.show()  </description>
+    </item>
+    
+    <item>
+      <title>Swarm Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/swarm-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/swarm-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Loading in-built data-set and printing it out iris = sns.load_dataset(&amp;#39;iris&amp;#39;) print(iris)  sepal_length sepal_width petal_length petal_width species 0 5.1 3.5 1.4 0.2 setosa 1 4.9 3.0 1.4 0.2 setosa 2 4.7 3.2 1.3 0.2 setosa 3 4.6 3.1 1.5 0.2 setosa 4 5.0 3.6 1.4 0.2 setosa .. ... ... ... ... ... 145 6.</description>
+    </item>
+    
+    <item>
+      <title>Violin Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/violin-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/violin-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
     </item>
     
     <item>
