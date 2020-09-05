@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Accessing Data from Pandas Series with Position</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/accessing-data-from-pandas-series-with-position/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/accessing-data-from-pandas-series-with-position/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize values with indices a = pd.Series([1,2,3,4,5],index = [&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;,&amp;#39;e&amp;#39;])# Print Series first element value print(a[0]) 1  # Print Series third element value print(a[2]) 3  </description>
+    </item>
+    
+    <item>
       <title>Bar Plot</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/bar-plot/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
@@ -54,6 +63,15 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/count-plot/</guid>
       <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
+      <title>Create a Pandas Series from scalar value</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/create-a-pandas-series-from-scalar-value/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/create-a-pandas-series-from-scalar-value/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize scalar value with indices a = pd.Series(5, index=[0, 1, 2, 3])# Print Series values print(a) 0 5 1 5 2 5 3 5 dtype: int64  </description>
     </item>
     
     <item>
@@ -117,6 +135,24 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/plotting-categorical-scatter-plots/</guid>
       <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Assigning x axis values  x =[&amp;#39;Sun&amp;#39;, &amp;#39;Mon&amp;#39;, &amp;#39;Tues&amp;#39;, &amp;#39;Wednes&amp;#39;, &amp;#39;Thurs&amp;#39;, &amp;#39;Fri&amp;#39;, &amp;#39;Satur&amp;#39;] # Assigning y axis values  y =[5, 6, 4, 6.5, 2.3, 4.9, 8.8] # Plotting Strip plot with Seaborn  a = sns.stripplot(x, y) # Giving labels to x-axis and y-axis  a.set(xlabel =&amp;#39;Days&amp;#39;, ylabel =&amp;#39;Work-Load&amp;#39;) # Giving title to the plot  plt.</description>
+    </item>
+    
+    <item>
+      <title>Retrieve the first three elements in Pandas Series</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-first-three-elements-in-pandas-series/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-first-three-elements-in-pandas-series/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize values with indices a = pd.Series([1,2,3,4,5],index = [&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;,&amp;#39;e&amp;#39;])# Print the retrieved first three elements in Pandas Series print(a[:3]) a 1 b 2 c 3 dtype: int64  </description>
+    </item>
+    
+    <item>
+      <title>Retrieve the last three elements in Pandas Series</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-last-three-elements-in-pandas-series/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-last-three-elements-in-pandas-series/</guid>
+      <description># Import pandas library  import pandas as pd# Initialize values with indices a = pd.Series([1,2,3,4,5],index = [&amp;#39;a&amp;#39;,&amp;#39;b&amp;#39;,&amp;#39;c&amp;#39;,&amp;#39;d&amp;#39;,&amp;#39;e&amp;#39;])# Print the retrieved last three elements in Pandas Series print(a[-3:]) c 3 d 4 e 5 dtype: int64  </description>
     </item>
     
     <item>

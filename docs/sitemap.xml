@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/accessing-data-from-pandas-series-with-position/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/bar-plot/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
@@ -24,6 +29,11 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/seaborn/count-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/create-a-pandas-series-from-scalar-value/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -59,6 +69,16 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/seaborn/plotting-categorical-scatter-plots/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-first-three-elements-in-pandas-series/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/pandas/retrieve-the-last-three-elements-in-pandas-series/</loc>
     <lastmod>2020-09-05T00:00:00+00:00</lastmod>
   </url>
   
