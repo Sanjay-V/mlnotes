@@ -93,6 +93,15 @@
     </item>
     
     <item>
+      <title>Heat Map</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/heat-map/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/heat-map/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;tips&amp;#39;) print(df)  total_bill tip sex smoker day time size 0 16.99 1.01 Female No Sun Dinner 2 1 10.34 1.66 Male No Sun Dinner 3 2 21.01 3.50 Male No Sun Dinner 3 3 23.68 3.31 Male No Sun Dinner 2 4 24.59 3.</description>
+    </item>
+    
+    <item>
       <title>Histogram</title>
       <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</link>
       <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
@@ -162,6 +171,15 @@
       
       <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/plotting-categorical-scatter-plots/</guid>
       <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Assigning x axis values  x =[&amp;#39;Sun&amp;#39;, &amp;#39;Mon&amp;#39;, &amp;#39;Tues&amp;#39;, &amp;#39;Wednes&amp;#39;, &amp;#39;Thurs&amp;#39;, &amp;#39;Fri&amp;#39;, &amp;#39;Satur&amp;#39;] # Assigning y axis values  y =[5, 6, 4, 6.5, 2.3, 4.9, 8.8] # Plotting Strip plot with Seaborn  a = sns.stripplot(x, y) # Giving labels to x-axis and y-axis  a.set(xlabel =&amp;#39;Days&amp;#39;, ylabel =&amp;#39;Work-Load&amp;#39;) # Giving title to the plot  plt.</description>
+    </item>
+    
+    <item>
+      <title>Reg Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/seaborn/reg-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/seaborn/reg-plot/</guid>
+      <description># Importing the Matplotlib and Seaborn library import matplotlib.pyplot as plt import seaborn as sns # Load the in-built dataset and printing it out df = sns.load_dataset(&amp;#39;mpg&amp;#39;) print(df)  mpg cylinders displacement horsepower weight acceleration \ 0 18.0 8 307.0 130.0 3504 12.0 1 15.0 8 350.0 165.0 3693 11.5 2 18.0 8 318.0 150.0 3436 11.0 3 16.0 8 304.0 150.0 3433 12.0 4 17.0 8 302.0 140.0 3449 10.</description>
     </item>
     
     <item>
