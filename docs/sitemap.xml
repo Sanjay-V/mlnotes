@@ -3,6 +3,31 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/bar-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/line-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/linear-plot-with-line-formatting/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://Sanjay-V.github.io/mlnotes/python/matplotlib/scatter-plot/</loc>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://Sanjay-V.github.io/mlnotes/python/sklearn/accuracy-score/</loc>
     <lastmod>2020-09-04T00:00:00+00:00</lastmod>
   </url>
@@ -179,7 +204,7 @@
   
   <url>
     <loc>https://Sanjay-V.github.io/mlnotes/</loc>
-    <lastmod>2020-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2020-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

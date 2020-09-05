@@ -6,10 +6,55 @@
     <description>Recent content on Sanjay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 04 Sep 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://Sanjay-V.github.io/mlnotes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Bar Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/bar-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/bar-plot/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # x-axis values  x = [15, 20, 39, 44] # y-axis values  y = [10, 35, 58, 64] # Function to plot x and y values plt.bar(x,y) # Function to show the plot  plt.show()  </description>
+    </item>
+    
+    <item>
+      <title>Histogram</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/histogram/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # y-axis values  y = [10, 35, 58, 64] # Function to plot y values plt.hist(y) # Function to show the plot  plt.show()  </description>
+    </item>
+    
+    <item>
+      <title>Line Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/line-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/line-plot/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # x-axis values  x = [15, 20, 39, 44, 76] # y-axis values  y = [10, 35, 58, 64, 42] # Function to plot x and y values plt.plot(x,y) # Function to show the plot  plt.show()  </description>
+    </item>
+    
+    <item>
+      <title>Linear Plot with Line Formatting</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/linear-plot-with-line-formatting/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/linear-plot-with-line-formatting/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # Assigning values  Year = [1975, 1983, 1999, 2006, 2017] TamilNadu = [130.6, 158.61, 355.54, 384.76, 754.60] Assam = [10.4, 25.56, 58.75, 178.27, 254.87]# Formatting of line style and Plotting of co-ordinates  plt.plot(Year, TamilNadu, color =&amp;#39;orange&amp;#39;, marker =&amp;#39;o&amp;#39;, markersize = 10, label =&amp;#39;Tamil Nadu&amp;#39;) plt.plot(Year, Assam, color =&amp;#39;g&amp;#39;, linestyle =&amp;#39;dashed&amp;#39;, linewidth = 3, label =&amp;#39;Assam&amp;#39;) # Labelling the plot plt.</description>
+    </item>
+    
+    <item>
+      <title>Scatter Plot</title>
+      <link>https://Sanjay-V.github.io/mlnotes/python/matplotlib/scatter-plot/</link>
+      <pubDate>Sat, 05 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://Sanjay-V.github.io/mlnotes/python/matplotlib/scatter-plot/</guid>
+      <description># Importing Matplotlib library from matplotlib import pyplot as plt # x-axis values  x = [15, 20, 39, 44] # y-axis values  y = [10, 35, 58, 64] # Function to plot x and y values plt.scatter(x,y) # Function to show the plot  plt.show()  </description>
+    </item>
     
     <item>
       <title>Accuracy Score</title>
